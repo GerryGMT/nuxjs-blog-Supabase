@@ -1,0 +1,25 @@
+{
+  "name": "nuxtjs-blog",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^1.22.2",
+    "core-js": "^3.15.1",
+    "marked": "^3.0.0",
+    "nuxt": "^2.15.7",
+    "vue-simplemde": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^4.2.0",
+    "@tailwindcss/typography": "^0.4.1",
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
+  }
+}
